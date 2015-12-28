@@ -81,7 +81,10 @@ public class HundredPrisioners {
 					if(roomBoxes.get(targetBox) == prisioner.getPrisionerNumber())
 					{
 						found=true;
-						//System.out.println("Found my Number! i'm number " + prisioner.prisionerNumber);
+						if(numberOfGames==1)
+						{
+						System.out.println("Found my Number! i'm number " + prisioner.prisionerNumber);
+						}
 						safePrisioners++;
 					}
 					else
@@ -94,7 +97,10 @@ public class HundredPrisioners {
 				
 			}
 			
-			//System.out.println(safePrisioners + " prisioners found his number!");
+			if(numberOfGames==1)
+			{
+			System.out.println(safePrisioners + " prisioners found his number!");
+			}
 			
 			if(safePrisioners == nPrisioners)
 			{
