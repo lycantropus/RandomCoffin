@@ -3,7 +3,7 @@
 Simple implementation of the [100 prisioners problem](https://en.wikipedia.org/wiki/100_prisoners_problem) (a variation of [Monty Hall paradox](https://en.wikipedia.org/wiki/Monty_Hall_problem))
 
 
-# How to Run
+## How to Run
 
 To run the problem, you must first compile the java file. for simplicity use your favorite Java IDE.
 After that, you can run the compiled class from your IDE or from a command line interface using the following comands:
