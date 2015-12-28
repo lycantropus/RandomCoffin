@@ -15,7 +15,7 @@ After that, you can run the compiled class from your IDE or from a command line 
     java -cp bin HundredPrisioners
 
 
-####or for the arbitrary number of rounds (so you can get a feeling of the success rate of the strategy)
+####or for an arbitrary number of rounds (so you can get a feeling of the success rate of the strategy)
 
     java -cp bin HundredPrisioners 10000
 
